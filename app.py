@@ -5,8 +5,6 @@ https://www.eurosport.fr/football/coupe-d-afrique-des-nations/calendrier-resulta
 """
 
 
-from datetime import datetime
-
 import requests
 import streamlit as st
 from bs4 import BeautifulSoup
