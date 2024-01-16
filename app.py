@@ -5,6 +5,8 @@ https://www.eurosport.fr/football/coupe-d-afrique-des-nations/calendrier-resulta
 """
 
 
+from datetime import datetime
+
 import requests
 import streamlit as st
 from bs4 import BeautifulSoup
@@ -37,6 +39,10 @@ for div in divs:
             "Team B": children[3].text,
         }
     )
+
+st.title("African Cup of Nations 2024")
+st.write("Current Round")
+
 st.dataframe(
     fixtures_table,
     hide_index=True,
