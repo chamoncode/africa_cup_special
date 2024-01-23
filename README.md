@@ -2,6 +2,8 @@
 
 This project is a Python script that scrapes the results of the African Cup of Nations 2024 from the Eurosprt website.
 
+![Screenshot 2024-01-23 at 18 54 40](https://github.com/chamoncode/africa_cup_special/assets/84735736/27182468-1d15-4e76-88f9-f2ec8137ecb0)
+
 It is automatically refreshed (uses polling).
 
 ```mermaid
